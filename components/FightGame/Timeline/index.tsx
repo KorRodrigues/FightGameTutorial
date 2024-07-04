@@ -41,8 +41,8 @@ export default function Timeline({
 
   return (
     <div>
-      <PlayerTimeline playerStack={player1Stack} size={size} frame={frame} />
-      <PlayerTimeline playerStack={player2Stack} size={size} frame={frame} />
+      <PlayerTimeline frame={frame} playerStack={player1Stack} size={size} />
+      <PlayerTimeline frame={frame} playerStack={player2Stack} size={size} />
     </div>
   );
 }

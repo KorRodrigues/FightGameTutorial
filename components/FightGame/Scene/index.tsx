@@ -123,7 +123,7 @@ export default function Scene({
   }, []);
 
   if (frame > Math.max(p1Stack.length, p2Stack.length, 40)) {
-    return setFrame(0);
+    setFrame(0);
   }
 
   const [p1, p2] = addHitBlockMissToTimeline(
@@ -143,7 +143,7 @@ export default function Scene({
           </CardBody>
         </Card>
         <div className="col-span-2">
-          <Fight player1Stack={p1} player2Stack={p2} frame={frame} />
+          <Fight frame={frame} player1Stack={p1} player2Stack={p2} />
         </div>
         <Card>
           <CardHeader>
@@ -154,7 +154,7 @@ export default function Scene({
           </CardBody>
         </Card>
         <div className="col-span-4">
-          <Timeline player1Stack={p1} player2Stack={p2} frame={frame} />
+          <Timeline frame={frame} player1Stack={p1} player2Stack={p2} />
         </div>
       </div>
     </div>
