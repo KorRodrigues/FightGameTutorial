@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.timeline_stack_square--startup {
+  background-color: #d3ae4a;
+}
+
+.timeline_stack_square--hitting {
+  background-color: #d36a4a;
+}
+
+.timeline_stack_square--recover {
+  background-color: #eb3ca8;
+}
+
+.timeline_stack_square--hitStun {
+  background-color: #ff1010;
+}
+
