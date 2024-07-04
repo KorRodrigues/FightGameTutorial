@@ -154,7 +154,7 @@ export default function Scene({
           </CardBody>
         </Card>
         <div className="col-span-4">
-          <Timeline player1Stack={p1} player2Stack={p2} />
+          <Timeline player1Stack={p1} player2Stack={p2} frame={frame} />
         </div>
       </div>
     </div>
