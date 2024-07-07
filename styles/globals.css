@@ -18,3 +18,41 @@
   background-color: #ff1010;
 }
 
+.article h1,
+.article h2,
+.article h3 {
+  margin-bottom: theme(spacing.2);
+}
+.article h1 {
+  font-size: theme(fontSize.3xl);
+}
+
+.article h2 {
+  font-size: theme(fontSize.2xl);
+}
+
+.article h3 {
+  font-size: theme(fontSize.xl);
+}
+
+.article section {
+  margin-bottom: theme(spacing.4);
+}
+
+.article img {
+  height: auto;
+  width: 100%;
+}
+.article p,
+.article span {
+  margin-bottom: theme(spacing.2);
+}
+
+.article ul {
+  list-style: unset;
+  margin-bottom: theme(spacing.2);
+  padding-left: theme(spacing.4);
+}
+.article li {
+  margin-bottom: theme(spacing.2);
+}
