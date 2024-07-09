@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'GGfont_STRIVE';
+  src: url('/strive/GGfont_STRIVE.woff2') format('woff2'),
+      url('/strive/GGfont_STRIVE.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .timeline_stack_square--startup {
   background-color: #d3ae4a;
 }
@@ -23,8 +32,9 @@
 .article h3 {
   margin-bottom: theme(spacing.2);
 }
+
 .article h1 {
-  font-size: theme(fontSize.3xl);
+  font-family: GGfont_STRIVE, theme('fontFamily.sans', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
 }
 
 .article h2 {

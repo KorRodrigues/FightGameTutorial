@@ -3,6 +3,7 @@ import { Image } from "@nextui-org/image";
 
 import { title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/blogpost";
+import { Projetil } from "@/components/PopoverDescription";
 
 export default function Basic() {
   return (
@@ -58,9 +59,10 @@ export default function Basic() {
                 pelos golpes do adversário. Movimentos com hurtboxes reduzidas
                 ou invulneráveis são mais seguros, pois têm menos chance de
                 serem atingidos. Por exemplo, se seu oponente estiver lançando
-                projéteis constantemente, você pode usar um golpe com hurtbox
-                invulnerável a ataques de altura média, podendo assim atravessar
-                o projétil e se aproximar para um contra-ataque.
+                {' '}<Projetil>projéteis</Projetil> constantemente, você pode usar um
+                golpe com hurtbox invulnerável a ataques de altura média,
+                podendo assim atravessar o <Projetil>projétil</Projetil> e se
+                aproximar para um contra-ataque.
               </span>
             </li>
           </ul>
