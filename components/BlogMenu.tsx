@@ -23,7 +23,7 @@ export default function BlogMenu() {
     },
     {
       title: "Kit de personagens e arquétipos",
-      href: "/#",
+      href: "/arquetipos",
     },
   ];
 

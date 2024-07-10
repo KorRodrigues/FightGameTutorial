@@ -11,6 +11,10 @@
   font-display: swap;
 }
 
+[nextjs-portal] {
+  display: none !important;
+}
+
 .timeline_stack_square--startup {
   background-color: #d3ae4a;
 }
@@ -46,7 +50,7 @@
 }
 
 .article section {
-  margin-bottom: theme(spacing.4);
+  margin-bottom: theme(spacing.10);
 }
 
 .article img {

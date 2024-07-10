@@ -31,7 +31,7 @@ export default function Basic() {
         <p>
           <ul>
             <li>
-              <h3>Alcance e Velocidade:</h3>
+              <h2>Alcance e Velocidade:</h2>
               <span>
                 Golpes rápidos com alcance curto são bons para pressões
                 constantes, enquanto golpes mais lentos e com maior alcance
@@ -39,7 +39,7 @@ export default function Basic() {
               </span>
             </li>
             <li>
-              <h3>Recuperação:</h3>
+              <h2>Recuperação:</h2>
               <span>
                 Depois de um golpe, há um período de recuperação onde você fica
                 vulnerável. Golpes com recuperação rápida são mais seguros e
@@ -48,7 +48,7 @@ export default function Basic() {
               </span>
             </li>
             <li>
-              <h3>Hitbox e Hurtbox:</h3>
+              <h2>Hitbox e Hurtbox:</h2>
               <span>
                 A hitbox é a área invisível que define onde um golpe pode
                 acertar o oponente. Golpes com hitboxes amplas são eficazes para
