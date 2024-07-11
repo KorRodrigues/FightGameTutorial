@@ -150,26 +150,28 @@ export default function Basic() {
         <div>
           <h3>Anti-aéreo</h3>
           <p>
-            A única característica que define que um golpe vai ser considerado
-            anti-aéreo é a capacidade de vencer oponentes que estão pulando em
-            cima de você. Os anti-aéreos geralmente têm uma hitbox projetada
-            para cima do personagem, ou podem ter uma hurtbox menor na parte
-            inferior tornando-o difíceis de acertar, alguns podem lançar o
-            personagem ou um projetil para cima. Esses golpes são essenciais
-            para controlar o espaço aéreo e impedir que o adversário ganhe
-            vantagem através de saltos.
+            A única característica que define um golpe como anti-aéreo é a sua
+            capacidade de vencer oponentes que estão pulando em cima de você.
+            Esses movimentos geralmente têm uma hitbox projetada para cima do
+            personagem ou uma hurtbox menor na parte inferior do personagem,
+            tornando-os difíceis de acertar. Alguns anti-aéreos lançam o
+            personagem ou um projétil para cima, controlando eficazmente o
+            espaço aéreo e impedindo que o adversário ganhe vantagem através de
+            saltos. Dominar esses golpes é essencial para qualquer jogador que
+            deseja manter a pressão e evitar ser surpreendido por ataques
+            aéreos.
           </p>
           <p>
-            Existem golpes anti-aéreos de todos os tipos. Por exemplo, alguns
-            projéteis, como o Grave Reaper de Testament. Há também golpes que
-            lançam o personagem para cima, como o Flash Kick de Guile ou
-            Shoryuken de Ryu, e até agarrões específicos, como o anti-aéreo de
-            Zangief, que pegam o oponente no ar.
-          </p>
-          <p>
-            Entender a função dos anti-aéreos e como usá-los efetivamente pode
-            ser a diferença entre dominar o espaço aéreo ou ser continuamente
-            pressionado por ataques aéreos do oponente.
+            Existem anti-aéreos de todos os tipos. Por exemplo, o Grave Reaper
+            de Testament em Guilty Gear Strive é um projétil anti-aéreo eficaz.
+            Em Street Fighter, golpes como o Flash Kick de Guile ou o Shoryuken
+            de Ryu lançam o personagem para cima, enquanto o agarrão anti-aéreo
+            de Zangief é perfeito para pegar o oponente no ar. Treine para
+            reconhecer a situação e usar o golpe certo no momento certo, isso
+            não só frustra os planos do adversário, mas também abre
+            oportunidades para contra-ataques devastadores. Ao praticar, você
+            sentirá a satisfação de neutralizar cada tentativa de salto do
+            oponente, mantendo o controle total da partida.
           </p>
         </div>
         <div>
@@ -186,15 +188,14 @@ export default function Basic() {
             Por exemplo, o &quot;Counter&quot; de Geese Howard em King of
             Fighters bloqueia o ataque do oponente e contra-ataca de forma
             rápida e eficiente. Baiken em Guilty Gear Strive pode bloquear
-            diversos golpes e arremesar o oponente logo em seguida.
-          </p>
-          <p>
-            A chave para usar golpes de contra-ataque de forma eficaz é o timing
-            e a leitura do adversário. No entanto, esses golpes vêm com riscos:
-            errar o timing ou ser previsível pode deixar você exposto a um
-            contra-ataque ainda mais devastador. Golpes de contra-ataque
-            recompensam jogadores com bom senso de timing e uma leitura precisa
-            do comportamento do oponente.
+            diversos golpes e arremesar o oponente logo em seguida. No entanto,
+            esses golpes vêm com riscos: errar o timing ou ser previsível pode
+            deixar você exposto a um contra-ataque ainda mais devastador.
+            Portanto, para dominar esses movimentos, é essencial praticar e
+            desenvolver um bom senso de timing e uma leitura precisa do
+            comportamento do oponente. Quando bem executados, os golpes de
+            contra-ataque não apenas frustram o adversário, mas também criam
+            oportunidades para mudar a pressão do jogo a seu favor.
           </p>
         </div>
         <div>

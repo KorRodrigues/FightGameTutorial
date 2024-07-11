@@ -22,8 +22,20 @@ export default function BlogMenu() {
       href: "/golpes-um-pouco-alem",
     },
     {
-      title: "Kit de personagens e arquétipos",
+      title: "Opções de defesa",
+      href: "/defesa",
+    },
+    {
+      title: "Personagens e Arquetipos",
       href: "/arquetipos",
+    },
+    {
+      title: "Fases de um round",
+      href: "/fases-round",
+    },
+    {
+      title: "Personagens frequentes",
+      href: "/personagens-frequentes",
     },
   ];
 

@@ -7,10 +7,10 @@ import { Projetil } from "@/components/PopoverDescription";
 
 export default function Basic() {
   return (
-    <DefaultLayout title="Arquetipos">
+    <DefaultLayout title="Personagens e Arquetipos">
       <section>
         <p>
-          arquetipo.
+          Personagens e Arquetipos.
         </p>
       </section>
     </DefaultLayout>
