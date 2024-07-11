@@ -2,6 +2,7 @@ import { Image } from "@nextui-org/image";
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
 
 import DefaultLayout from "@/layouts/blogpost";
+import { Recuperacao } from "@/components/PopoverDescription";
 
 export default function Basic() {
   return (
@@ -17,8 +18,9 @@ export default function Basic() {
         <h2>Fireball (ou projétil)</h2>
         <p>
           Golpes de longa distancia que tem como objetivo dominar uma área e
-          manter o oponente longe, costumam ter uma recuperação lenta permitindo
-          contra ataques caso o oponente esteja atento.
+          manter o oponente longe, costumam ter uma{" "}
+          <Recuperacao>recuperação</Recuperacao> lenta permitindo contra ataques
+          caso o oponente esteja atento.
         </p>
         <p>
           Existem projéteis com diferentes velocidades, alcances e ângulos,
@@ -42,7 +44,8 @@ export default function Basic() {
             <AccordionItem key="1" title="Cuidado ao usar a curtas distancias!">
               <p>
                 O oponente usará pulos e golpes que atravessam projeteis para
-                atacar enquanto você ainda está se recuperando do ataque.
+                atacar enquanto você ainda está se{" "}
+                <Recuperacao>recuperando</Recuperacao> do ataque.
               </p>
               <Image
                 className="mt-6 mb-8"
@@ -122,10 +125,11 @@ export default function Basic() {
         <h2>Agarrões e arremessos</h2>
         <p>
           A maioria dos jogos de luta possui uma forma universal de agarrão.
-          Eles têm alcance curto e recuperação alta, mas ignoram a defesa e
-          causam um dano significativo. Além disso, muitos jogos permitem
-          escolher a direção para onde você lança o oponente, o que pode virar o
-          jogo em situações desfavoráveis, especialmente perto das paredes.
+          Eles têm alcance curto e <Recuperacao>recuperação</Recuperacao> alta,
+          mas ignoram a defesa e causam um dano significativo. Além disso,
+          muitos jogos permitem escolher a direção para onde você lança o
+          oponente, o que pode virar o jogo em situações desfavoráveis,
+          especialmente perto das paredes.
         </p>
         <p>
           Para se defender de um agarrão comum, você pode pular, se esquivar ou
@@ -140,9 +144,10 @@ export default function Basic() {
           agarrão comum.
         </p>
         <p>
-          Devido à alta recuperação dos agarrões e ao risco de contra-ataques, a
-          melhor estratégia para usá-los é esperar uma brecha no ataque do
-          oponente, forçando-o a respeitar sua presença a curta distância.
+          Devido à alta <Recuperacao>recuperação</Recuperacao> dos agarrões e ao
+          risco de contra-ataques, a melhor estratégia para usá-los é esperar
+          uma brecha no ataque do oponente, forçando-o a respeitar sua presença
+          a curta distância.
         </p>
       </section>
       <section>
@@ -202,19 +207,19 @@ export default function Basic() {
           <h3>Reversal</h3>
           <p>
             Reversals são golpes que podem ser usados imediatamente após
-            levantar do chão ou sair de um estado de atordoamento,
+            levantar do chão ou ao sair de um estado de atordoamento,
             frequentemente com invencibilidade inicial para interromper a
-            pressão do oponente. Eles são uma ferramenta poderosa para virar o
-            jogo a seu favor e escapar de situações difíceis.
+            pressão do oponente. É uma ferramenta poderosa para virar o jogo a
+            seu favor e escapar de situações difíceis.
           </p>
           <p>
             No entanto, usar um reversal vem com riscos significativos. Esses
-            golpes têm uma recuperação muito alta, e se o oponente prever o
-            movimento e defender, você ficará vulnerável a um combo completo,
-            resultando em grandes danos como punição. Portanto, é crucial usar
-            reversals de forma estratégica e calculada, escolhendo o momento
-            certo para maximizar sua eficácia sem se expor a contra-ataques
-            devastadores.
+            golpes têm uma <Recuperacao>recuperação</Recuperacao> muito alta, e
+            se o oponente prever o movimento e defender, você ficará vulnerável
+            a um combo completo, resultando em grandes danos como punição.
+            Portanto, é crucial usar reversals de forma estratégica e calculada,
+            escolhendo o momento certo para maximizar sua eficácia sem se expor
+            a contra-ataques devastadores.
           </p>
         </div>
       </section>
